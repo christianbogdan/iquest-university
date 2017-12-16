@@ -5,27 +5,25 @@
 <html>
 
 <head>
-    <title>Best product in the world</title>
+    <title>Best product in the world </title>
+    <img src="http://fakeimg.pl/50x50/" alt="logo">logo
 
-    <!-- CSS -->
+    <!-- Css -->
     <link rel="stylesheet" type="text/css" href="">
 
 </head>
+<!-- Navigation -->
+<nav>
+    <ul>
+        <li>Who we are</li>
+        <li>What we do</li>
+        <li>Terms</li>
+        <li>Contact us</li>
+    </ul>
+</nav>
 
 <body>
     <main>
-        <img src="http://fakeimg.pl/50x50/">logo
-        
-        <!-- Navigation -->
-        
-        <nav>
-            <ul>
-                <li>Who we are</li>
-                <li>What we do</li>
-                <li>Terms</li>
-                <li>Contact us</li>
-            </ul>
-        </nav>
         <h1>PERFECT</h1>
         <h2>Just perfect</h2>
         <img src="http://fakeimg.pl/250x100/">
@@ -36,19 +34,21 @@
         <section>
             <h3>Affordable, reliable and visionary</h3>
             <p>The product was reliable ten years ago, is reliable today and it will be <strong>forever</strong></p>
+            <img src="http://fakeimg.pl/250x100/">
         </section>
-        <img src="http://fakeimg.pl/250x100/">
+        <!-- Form -->
+        <aside>
+            <h3>Subscribe to our newsletter by providing a few info</h3>
+            <form action="/action_page.php">
+                <input type="text" name="fullname" placeholder="your full name">
+                <input type="text" name="email" placeholder="your email adress">
+                <button type="submit">Subscribe</button>
+            </form>
+            <h4>The following 3 lines, including this one, are aside from the page main content</h4>
+        </aside>
     </main>
-    <aside>
-        <h3>Subscribe to our newsletter by providing a few info</h3>
-        <form action="/action_page.php">
-            <input type="text" name="fullname" placeholder="your full name">
-            <input type="text" name="email" placeholder="your email adress">
-            <button type="button" onclick="alert('You have been subscribed!')">Subscribe</button>
-        </form>
-        <h4>The following 3 lines, including this one, are aside from the page main content</h4>
-    </aside>
     <section>
+        <!-- Footer -->
         <footer><strong>footer section begins below the line</strong>
             <hr class="separator">
             <h4>To become a master you need:</h4>
@@ -69,9 +69,10 @@
                 <li>ReactJS</li>
                 <li>AngularJS</li>
             </ul>
-            <hr class="separator">
         </footer>
     </section>
+    <hr class="separator">
+    <br>
 </body>
 
 </html>
